@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+label {
+  margin: 20px;
+}
+
+input, button {
+  border-style:none;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 20px;
+}
+
+
+
+input {
+  transition:0.3s;
+  background-color:#bdc3c7;
+  color:black;
+}
+
+input:hover {
+  transition:0.3s;
+  background-color:#ecf0f1;;
+}
+
+button {
+  transition:0.3s;
+  font-weight:bold;
+  background-color:#60a3bc;
+  color:black;
+}
+
+button:hover {
+  transition:0.3s;
+  background-color:#6cb2c9;
+}
+
+/*
+  INDIVIDUAL ELEMENTS
+*/
+
+#qr-code-generator {
+  border-radius:25px;
+  border-style:none;
+  margin: 20px;
+  padding: 10px;
+  background-color:#7700ab;
+  color:#f2f204;
+  text-decoration:none;
+}
+
+#back-to-dashboard {
+  border-radius:25px;
+  border-style:none;
+  margin: 20px;
+  padding: 10px;
+  background-color:#8e44ad;
+  color:#ffffff;
+  text-decoration:none;
+}
+
+.dash-style {
+  background-color: rgb(59, 74, 105);
+  padding: 2%;
+  margin-bottom: 5%;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.smaller {
+  width: 40% !important;
+}
