@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cookie": "^0.5.0",
+    "cookie-handler": "^1.2.4",
+    "http-cookie-manager": "^1.0.1",
+    "sqlite3": "^5.1.6",
+    "websql": "^2.0.3"
+  }
+}
